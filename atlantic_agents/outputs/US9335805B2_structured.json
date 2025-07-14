@@ -1,0 +1,78 @@
+{
+  "patent_id": "US9335805B2",
+  "timestamp": "2023-10-01T12:00:00Z",
+  "agent_version": "1.0",
+  "source_file": "US9335805B2.json",
+  "field_of_invention": "power management in multi-core processors",
+  "invention_descriptor": "dynamic power state management",
+  "independent_claims": [
+    {
+      "claim_number": 1,
+      "is_method_claim": true,
+      "elements": [
+        {
+          "element_id": "US9335805B2_cl1_el01",
+          "text": "determining a first performance status and a first leakage status for a first processing core of the plurality of processing cores"
+        },
+        {
+          "element_id": "US9335805B2_cl1_el02",
+          "text": "setting a first performance setting for the first processing core to a high-performance state in response to the first performance status comprising a low-performance state and the first leakage status comprising a high-leakage state, wherein the high-leakage state is higher than a low-leakage state"
+        },
+        {
+          "element_id": "US9335805B2_cl1_el03",
+          "text": "determining a second leakage status for a second processing core of the plurality of processing cores"
+        },
+        {
+          "element_id": "US9335805B2_cl1_el04",
+          "text": "determining a load uniformity status for a load operating on the first processing core and the second processing core"
+        },
+        {
+          "element_id": "US9335805B2_cl1_el05",
+          "text": "in response to the first leakage status comprising the high-leakage state, the second leakage status comprising the high-leakage state, and the load uniformity status comprising a non-uniform state:"
+        },
+        {
+          "element_id": "US9335805B2_cl1_el06",
+          "text": "setting the first performance setting to the high-performance state"
+        },
+        {
+          "element_id": "US9335805B2_cl1_el07",
+          "text": "setting an enablement setting for the second processing core to a disabled state"
+        }
+      ]
+    },
+    {
+      "claim_number": 6,
+      "is_method_claim": true,
+      "elements": [
+        {
+          "element_id": "US9335805B2_cl6_el01",
+          "text": "determining a first leakage status for a first processing core of the plurality of processing cores"
+        },
+        {
+          "element_id": "US9335805B2_cl6_el02",
+          "text": "determining a second leakage status for a second processing core of the plurality of processing cores"
+        },
+        {
+          "element_id": "US9335805B2_cl6_el03",
+          "text": "determining a load uniformity status for a load operating on the first processing core and the second processing core"
+        },
+        {
+          "element_id": "US9335805B2_cl6_el04",
+          "text": "in response to the first leakage status comprising a high-leakage state, the second leakage status comprising the high-leakage state, and the load uniformity status comprising a non-uniform state:"
+        },
+        {
+          "element_id": "US9335805B2_cl6_el05",
+          "text": "setting a first enablement setting for the first processing core to an enabled state"
+        },
+        {
+          "element_id": "US9335805B2_cl6_el06",
+          "text": "setting a first performance setting for the first processing core to a high-performance state"
+        },
+        {
+          "element_id": "US9335805B2_cl6_el07",
+          "text": "setting a second enablement setting for the second processing core to a disabled state"
+        }
+      ]
+    }
+  ]
+}

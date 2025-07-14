@@ -1,0 +1,120 @@
+{
+  "patent_id": "US8792347B2",
+  "timestamp": "2023-10-01T12:00:00Z",
+  "agent_version": "1.0",
+  "source_file": "US8792347B2.json",
+  "field_of_invention": "network traffic monitoring",
+  "invention_descriptor": "selective traffic monitoring",
+  "independent_claims": [
+    {
+      "claim_number": 1,
+      "is_method_claim": true,
+      "elements": [
+        {
+          "element_id": "US8792347B2_cl1_el01",
+          "text": "receiving a notice for a beginning of a network data flow between an origin server and a user device, the data flow for delivering media content from the origin server to the user device in response to a request for the media content from the user device"
+        },
+        {
+          "element_id": "US8792347B2_cl1_el02",
+          "text": "determining whether to monitor the data flow between the origin server and the user device"
+        },
+        {
+          "element_id": "US8792347B2_cl1_el03",
+          "text": "responsive to a determination to monitor the data flow, collecting statistic information corresponding to the data flow"
+        },
+        {
+          "element_id": "US8792347B2_cl1_el04",
+          "text": "storing the statistic information collected for the data flow to a flow record in a database"
+        },
+        {
+          "element_id": "US8792347B2_cl1_el05",
+          "text": "mapping the flow record in the database to a subscriber of the service provider network based on an analysis of the statistic information collected for the data flow, where mapped flow records are aggregated for the subscriber"
+        },
+        {
+          "element_id": "US8792347B2_cl1_el06",
+          "text": "determining historical bandwidth provided to the subscriber based on the mapped flow records aggregated for the subscriber"
+        },
+        {
+          "element_id": "US8792347B2_cl1_el07",
+          "text": "estimating bandwidth to be consumed on the service provider network by the data flow between the user device and the origin server based on the statistic information collected for the data flow and the historical bandwidth provided to the subscriber"
+        }
+      ]
+    },
+    {
+      "claim_number": 9,
+      "is_method_claim": false,
+      "elements": [
+        {
+          "element_id": "US8792347B2_cl9_el01",
+          "text": "receiving a notice for a beginning of a network data flow between an origin server and a user device, the data flow for delivering media content from the origin server to the user device in response to a request for the media content from the user device"
+        },
+        {
+          "element_id": "US8792347B2_cl9_el02",
+          "text": "determining whether to monitor the data flow between the origin server and the user device"
+        },
+        {
+          "element_id": "US8792347B2_cl9_el03",
+          "text": "responsive to a determination to monitor the data flow, collecting statistic information corresponding to the data flow"
+        },
+        {
+          "element_id": "US8792347B2_cl9_el04",
+          "text": "storing the statistic information collected for the data flow to a flow record in a database"
+        },
+        {
+          "element_id": "US8792347B2_cl9_el05",
+          "text": "mapping the flow record in the database to a subscriber of the service provider network based on an analysis of the statistic information collected for the data flow, where mapped flow records are aggregated for the subscriber"
+        },
+        {
+          "element_id": "US8792347B2_cl9_el06",
+          "text": "determining historical bandwidth provided to the subscriber based on the mapped flow records aggregated for the subscriber"
+        },
+        {
+          "element_id": "US8792347B2_cl9_el07",
+          "text": "estimating bandwidth to be consumed on the service provider network by the data flow between the user device and the origin server based on the statistic information collected for the data flow and the historical bandwidth provided to the subscriber"
+        }
+      ]
+    },
+    {
+      "claim_number": 17,
+      "is_method_claim": false,
+      "elements": [
+        {
+          "element_id": "US8792347B2_cl17_el01",
+          "text": "a processor"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el02",
+          "text": "a non-transitory computer-readable storage medium storing executable computer program instructions that when executed by the processor"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el03",
+          "text": "receive a notice for a beginning of a network data flow between an origin server and a user device, the data flow for delivering media content from the origin server to the user device in response to a request for the media content from the user device"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el04",
+          "text": "determine whether to monitor the data flow between the origin server and the user device"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el05",
+          "text": "collect statistic information corresponding to the data flow in response to a determination to monitor the data flow"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el06",
+          "text": "store the statistic information collected for the data flow to a flow record in a database"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el07",
+          "text": "map the flow record in the database to a subscriber of the service provider network based on an analysis of the statistic information collected for the data flow, where mapped flow records are aggregated for the subscriber"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el08",
+          "text": "determine historical bandwidth provided to the subscriber based on the mapped flow records aggregated for the subscriber"
+        },
+        {
+          "element_id": "US8792347B2_cl17_el09",
+          "text": "estimate bandwidth to be consumed on the server provider network by the data flow between the user device and the origin server based on the statistic information collected for the data flow and the historical bandwidth provided to the subscriber"
+        }
+      ]
+    }
+  ]
+}
